@@ -32,6 +32,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Init files
 PRODUCT_COPY_FILES := \
+    device/samsung/n8000/init.rc.samsung:root/init.rc.samsung \
     device/samsung/n8000/init.bt.rc:root/init.bt.rc \
     device/samsung/n8000/init.smdk4x12.rc:root/init.smdk4x12.rc \
     device/samsung/n8000/init.smdk4x12.usb.rc:root/init.smdk4x12.usb.rc \
