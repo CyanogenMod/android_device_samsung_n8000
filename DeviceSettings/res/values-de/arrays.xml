@@ -1,0 +1,40 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="vibrator_intensity_entries">
+        <item>0%</item>
+        <item>25%</item>
+        <item>50% (Standard)</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+
+    <string-array name="hspa_entries">
+	    <item>Nur UMTS</item>
+	    <item>Nur HSDPA</item>
+	    <item>HSDPA + HSUPA</item>
+    </string-array>
+
+    <string-array name="mdnie_scenario_entries">
+        <item>UI (Standard)</item>
+        <item>Video</item>
+        <item>Video warm</item>
+        <item>Video kalt</item>
+        <item>Kamera</item>
+        <item>Navigation</item>
+        <item>Gallerie</item>
+        <item>VT</item>
+    </string-array>
+
+    <string-array name="mdnie_mode_entries">
+        <item>Dynamisch (Standard)</item>
+        <item>Standard</item>
+        <item>Natürlich</item>
+        <item>Film</item>
+    </string-array>
+
+    <string-array name="mdnie_negative_entries">
+        <item>Normal</item>
+        <item>Invertiert</item>
+    </string-array>
+
+</resources>

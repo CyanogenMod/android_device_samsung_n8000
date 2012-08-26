@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Galaxy S III Einstellungen</string>
+
+    <string name="category_haptic_title">Haptik</string>
+    <string name="vibrator_subcat_title">Vibrator</string>
+    <string name="vibrator_intensity_title_head">Vibrator Intensität</string>
+    <string name="vibrator_intensity_summary_head">Wähle Vibrator Intensität</string>
+
+    <string name="category_radio_title">Mobilfunk</string>
+    <string name="hspa_title_head">HSPA</string>
+    <string name="hspa_summary_head">Aktiviere HSDPA/HSUPA</string>
+
+    <string name="category_screen_title">Display</string>
+    <string name="mdnie_subcat_title">Farben</string>
+    <string name="mdnie_scenario_title_head">Szenario</string>
+    <string name="mdnie_scenario_summary_head">Wähle das mDNIe Szenario</string>
+    <string name="mdnie_mode_title_head">Modus</string>
+    <string name="mdnie_mode_summary_head">Wähle den mDNIe Modus</string>
+    <string name="mdnie_negative_title_head">Negativ Modus</string>
+    <string name="mdnie_negative_summary_head">Invertiere Farben</string>
+
+</resources>

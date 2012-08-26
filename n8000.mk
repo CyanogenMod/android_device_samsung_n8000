@@ -82,7 +82,7 @@ PRODUCT_PACKAGES := \
     libsecril-client \
     macloader \
     com.android.future.usb.accessory \
-    GalaxyS3Settings \
+    GalaxyN8000Settings \
     SamsungServiceMode \
     tinymix
 #    Torch
