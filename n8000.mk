@@ -74,14 +74,13 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES := \
-#    audio.a2dp.default \
-#    audio.primary.smdk4x12 \
-#   audio.usb.default \
+    audio.a2dp.default \
+    audio.primary.smdk4x12 \
+    audio.usb.default \
     camera.exynos4 \
     Camera \
     libsecril-client \
     macloader \
-#    TVOutDummy \
     com.android.future.usb.accessory \
     GalaxyS3Settings \
     SamsungServiceMode \
@@ -90,7 +89,9 @@ PRODUCT_PACKAGES := \
 
 # HAL
 PRODUCT_PACKAGES += \
-    lights.exynos4
+    lights.exynos4 \
+    libtinyalsa \
+    TVOutDummy
 
 #    libgralloc_ump \
 #    libhwconverter \
@@ -104,7 +105,6 @@ PRODUCT_PACKAGES += \
 #    libedid \
 #    libhdmiclient \
 #    libTVOut
-#    libtinyalsa \
 
 # MFC API
 PRODUCT_PACKAGES += \
@@ -190,7 +190,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
+    persist.sys.usb.config=mtp,adb
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
