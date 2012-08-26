@@ -29,6 +29,8 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 # if the xhdpi doesn't exist.
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 1280
 
 # Init files
 PRODUCT_COPY_FILES := \
