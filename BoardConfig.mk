@@ -26,4 +26,4 @@ TARGET_KERNEL_SOURCE := kernel/samsung/kernel_n8000_ics
 TARGET_KERNEL_CONFIG := kernel_n8000_defconfig
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := c0,n8000,GT-N8000
+TARGET_OTA_ASSERT_DEVICE := c0,p4noterf,n8000,GT-N8000
