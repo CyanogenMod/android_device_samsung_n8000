@@ -38,3 +38,4 @@ PRODUCT_COPY_FILES += \
     device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8000
 
 
+$(call inherit-product-if-exists, vendor/samsung/n8000/n8000-vendor.mk)
