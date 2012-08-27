@@ -37,5 +37,9 @@ PRODUCT_COPY_FILES += \
     device/samsung/n8000/init.smdk4x12.rc:root/init.smdk4x12.rc \
     device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8000
 
+# Gps
+PRODUCT_COPY_FILES += \
+    device/samsung/n8000/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/n8000/configs/gps.xml:system/etc/gps.xml
 
 $(call inherit-product-if-exists, vendor/samsung/n8000/n8000-vendor.mk)
