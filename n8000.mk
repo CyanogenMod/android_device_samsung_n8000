@@ -27,6 +27,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.hsxpa=1 \
     ro.ril.gprsclass=10
 
+PRODUCT_PACKAGES += \
+	libsecril-client \
+	libsecril-client-sap
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
