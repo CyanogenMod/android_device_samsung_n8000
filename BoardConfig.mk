@@ -27,3 +27,5 @@ TARGET_KERNEL_CONFIG := kernel_n8000_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := c0,p4noterf,n8000,GT-N8000
+
+-include vendor/samsung/i9100/BoardConfigVendor.mk
