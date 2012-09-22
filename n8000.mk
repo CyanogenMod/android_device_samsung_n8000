@@ -43,5 +43,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/n8000/configs/gps.conf:system/etc/gps.conf \
     device/samsung/n8000/configs/gps.xml:system/etc/gps.xml
-
-$(call inherit-product-if-exists, vendor/samsung/n8000/n8000-vendor.mk)
