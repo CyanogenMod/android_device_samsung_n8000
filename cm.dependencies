@@ -1,10 +1,18 @@
 [
     {
-        "repository": "android_kernel_samsung_n8000",
-        "target_path": "kernel/samsung/n8000"
+        "repository": "android_device_samsung_n80xx-common",
+        "target_path": "device/samsung/n80xx-common"
+    },
+    {
+        "repository": "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode"
+        "target_path": "packages/apps/SamsungServiceMode",
+    },
+    {
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung"
     }
 ]
