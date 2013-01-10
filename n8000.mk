@@ -43,3 +43,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/n8000/configs/gps.conf:system/etc/gps.conf \
     device/samsung/n8000/configs/gps.xml:system/etc/gps.xml
+
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
