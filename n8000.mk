@@ -20,6 +20,26 @@ LOCAL_PATH := device/samsung/n8000
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Rootdir
+PRODUCT_COPY_FILES += \
+    device/samsung/n8000/rootdir/init.target.rc:root/init.target.rc
+
+# Audio
+PRODUCT_COPY_FILES += \
+    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8000
+
+# Gps
+PRODUCT_COPY_FILES += \
+    device/samsung/n8000/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/n8000/configs/gps.xml:system/etc/gps.xml
+
+# These are the hardware-specific features
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
+    frameworks/native/data/etc/android.software.sip.xml:system/etc/permissions/android.software.sip.xml \
+    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=SamsungExynos4RIL \
@@ -29,17 +49,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
 	libsecril-client-sap
-
-# These are the hardware-specific features
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
-    frameworks/native/data/etc/android.software.sip.xml:system/etc/permissions/android.software.sip.xml \
-    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
-    device/samsung/n8000/init.smdk4x12.rc:root/init.smdk4x12.rc \
-    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8000
-
-# Gps
-PRODUCT_COPY_FILES += \
-    device/samsung/n8000/configs/gps.conf:system/etc/gps.conf \
-    device/samsung/n8000/configs/gps.xml:system/etc/gps.xml
